@@ -62,6 +62,9 @@ public class C03Operator {
 //        boolean b3 = !(num2 < 10 || num2 > 30);
 //
 //        비트연산자: 컴퓨터의 2진체계에서의 연산방식 ->  & | ^ << >>
+        int n1 = 3;
+        int n2 = 4;
+        System.out.println(n1^n2);
 
 
 
