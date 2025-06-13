@@ -226,6 +226,7 @@ public class C06String {
 //        String st1 = "hello";
 //        StringBuilder sb = new StringBuilder();
 //
+//        문자열 뒤집기
         String st1 = "abcd";
         StringBuilder sb = new StringBuilder();
         for (int i = st1.length() - 1; i >= 0; i--){
