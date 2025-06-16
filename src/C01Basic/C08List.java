@@ -43,14 +43,19 @@ public class C08List {
 //            System.out.println(list.get(i));
 //        }
 //
-////        remove:
+////        remove: 요소 삭제
 //        List<Integer> list = new ArrayList<>();
 //        list.add(10);
 //        list.add(20);
 //        list.add(30);
-////        index를 통한 삭제 2) value를 통한 삭제(일반적이지 않음9/
+//
+////        index를 통한 삭제 2) value를 통한 삭제(일반적이지 않음)
 //        list.remove(0);
 //        list.remove(Integer.valueOf(30));
+//
+////        clear : 요소 전체 삭제
+//        myList.clear();
+//        System.out.println(myList.isEmpty());
 //
 ////        indexOf : 특정값을 찾아 index return (가장 먼저 나오는 값)
 //        List<Integer> list2 = new ArrayList<>();
@@ -96,7 +101,6 @@ public class C08List {
 //
 ////        for문 이용해서
 //        List<List<Integer>> list = new ArrayList();
-//
 //        int num=1;
 //        for(int i=0; i<4; i++){
 //            list.add(new ArrayList<>());

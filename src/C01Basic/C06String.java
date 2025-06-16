@@ -55,6 +55,14 @@ public class C06String {
 ////        참조자료형의 비교는 == 지양
 ////        System.out.println(st1.equals(st2));
 //
+////        문자열 비교
+//        String st1 = "hello";
+//        String st2 = "dello";
+//        String st3 = "hello";
+//        System.out.println(st1.compareTo(st2));     // 양수
+//        System.out.println(st2.compareTo(st1));     // 음수
+//        System.out.println(st1.compareTo(st3));     // 0
+//
 ////        equals: 문자열 비교
 //        String st1 = "hello world";
 //        String st2 = "hello world";
@@ -121,7 +129,7 @@ public class C06String {
 //        System.out.println(trim1);
 //        System.out.println(strip);
 //
-////      toUpperCase: 모든 문자열을 대문자로 변환, toLowerCase: 모든 문자열을 소문자로 변환
+////        toUpperCase: 모든 문자열을 대문자로 변환, toLowerCase: 모든 문자열을 소문자로 변환
 //        String s1 = "Hello";
 //        String s2 = s1.toUpperCase();
 //        String s3 = s1.toLowerCase();
@@ -226,22 +234,12 @@ public class C06String {
 //        String st1 = "hello";
 //        StringBuilder sb = new StringBuilder();
 //
-//        문자열 뒤집기
-        String st1 = "abcd";
-        StringBuilder sb = new StringBuilder();
-        for (int i = st1.length() - 1; i >= 0; i--){
-            sb.append(st1.charAt(i));
-        }
-        System.out.println(sb.toString());
-
-
-
-
-
-
-
-
-
-
+////        문자열 뒤집기
+//        String st1 = "abcd";
+//        StringBuilder sb = new StringBuilder();
+//        for (int i = st1.length() - 1; i >= 0; i--) {
+//            sb.append(st1.charAt(i));
+//        }
+//        System.out.println(sb.toString());
     }
 }
