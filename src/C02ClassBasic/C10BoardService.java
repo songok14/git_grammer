@@ -130,6 +130,8 @@ public class C10BoardService {
     }
 }
 
+// 일반적으로 클래스를 정의할 때 원시자료형은 wrapper 클래스로 정의
+
 class Author {
     private String name;
     private String email;
@@ -137,12 +139,14 @@ class Author {
     private int id;
     private static int auto_increment;
     private List<Post> postList;
+    // author 객체에 postList를 선언함으로서 편의성 향상
 
     public Author(String name, String email, String password) {
         id = auto_increment++;
         this.name = name;
         this.email = email;
         this.password = password;
+        // 객체 안에 객체를 선언함으로서 author 객체에서 쉽게 post 객체에 접근 가능
         List<Post> postList = new ArrayList<>();
     }
 
@@ -218,13 +222,4 @@ class Post {
     public Author getAuthor() {
         return author;
     }
-
-//    public boolean isContains(Author author) {
-//        if (author.contains(author)) {
-//            return true;
-//        } else {
-//            return false;
-//        }
-//    }
-
 }
