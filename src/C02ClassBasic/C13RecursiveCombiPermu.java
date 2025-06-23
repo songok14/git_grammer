@@ -61,13 +61,12 @@ public class C13RecursiveCombiPermu {
 //        combie(myList, new ArrayList<>(), doubleList, 2, 0);
 //        System.out.println(doubleList);
 
-        /// 순열 구하기
-        permu(myList, new ArrayList<>(), doubleList, 4, new boolean[myList.size()]);
-        System.out.println(doubleList);
+//        /// 순열 구하기
+//        permu(myList, new ArrayList<>(), doubleList, 4, new boolean[myList.size()]);
+//        System.out.println(doubleList);
 
         /// 백준: 15649 N과 M
         /// 백준: 6603 로또
-
 
     }
 
